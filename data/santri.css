@@ -1,0 +1,150 @@
+.container {
+ border             : 2px solid orange;
+ width              : 800px;
+ height             : 630px;
+ margin             : auto;
+}
+
+.header {
+ border             : 2px solid green;
+ width              : 800px;
+ height             : 70px;
+ float              : left;
+}
+
+.aside {
+ border             : 2px solid blue;
+ width              : 100px;
+ height             : 500px;
+ float              : left;
+ overflow           : hidden;
+}
+
+.section {
+ border             : 2px solid yellow;
+ width              : 660px;
+ height             : 500px;
+ float              : left;
+ overflow           : hidden;
+ margin-left        : 30px;
+}
+
+.footer {
+ border             : 2px solid red;
+ width              : 800px;
+ height             : 50px;
+ clear              : both;
+}
+
+/*-----------------------------------------*/
+.h1Header {
+ width              : ;
+ height             : ;
+ float              : left;
+}
+
+.imgHeader {
+ width              : 100px;
+ height             : 70px;
+ float              : right;
+}
+
+.imgStudent {
+ width              : 150px;
+ height             : 150px;
+ float              : left;
+}
+
+.imgdd {
+ width              : 300px;
+ height             : 300px;
+ float              : left;
+}
+
+.scoreBox {
+ border             : 2px solid red;
+ width              : 630px;
+ height             : 280px;
+ float              : left;
+}
+
+.notes {
+ border             : 2px solid lime;
+ width              : 610px;
+ height             : 120px;
+ float              : left;
+}
+
+
+.milestoneBtn {
+ border             : 2px solid blue;
+ color              : red;
+ width              : ;
+ height             : ;
+ float              : ;
+ margin-left        : 60%;
+}
+
+.scoreBtn {
+ border             : 2px solid blue;
+ color              : red;
+ width              : ;
+ height             : ;
+ float              : ;
+ margin-left        : ;
+}
+
+.tableScore {
+ table-layout       : fixed;
+ border             : 2px solid blue;
+ color              : ;
+ width              : ;
+ height             : ;
+ margin             : ;
+}
+
+.projectRow {
+ table-layout       : fixed;
+ border             : ;
+ color              : ;
+ width              : 180px;
+ height             : ;
+}
+
+.materialRow {
+ table-layout       : fixed;
+ border             : ;
+ color              : ;
+ width              : 300px;
+ height             : ;
+}
+
+.estimationRow {
+ table-layout       : fixed;
+ border             : ;
+ color              : ;
+ width              : 120px;
+ height             : ;
+}
+
+.tableScore th {
+ border             : 2px solid lime;
+}
+
+.tableScore td, th {
+ border             : 2px solid orange;
+}
+
+/*------------------------------------------*/
+a {
+ text-decoration    : none;
+ color              : darkgreen;
+}
+
+a:hover {
+ color              : lime;
+}
+
+a:active {
+ color              : orange;
+}

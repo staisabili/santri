@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Performa Pribadi</title>
+ <meta charset="utf-8"/>
+ <link rel="stylesheet" href="../santri.css"/>
+ <script src="rating.js" async></script>
+</head>
+<body>
+
+ <p>Ihah Solihah</p>
+ <img class="imgStudent" src="../images/mahasiswa.jpeg" alt="Photo Mahasiswa"/>
+
+ <div class="scoreBox">
+
+  <form name="formulir">
+   <input type="hidden" name="attendance" value="40"/>
+   <input type="hidden" name="reading" value="60"/>
+   <input type="hidden" name="quiz" value="50"/>
+
+  <table>
+   <tr>
+    <td><label for="attendance">Attendance</label></td>
+    <td>:</td>
+    <td><progress id="attendance" value="40" max="100"></progress></td>
+    <td>40</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td rowspan="3"><input type="button" value="Rating:" onclick="hitungRating()"/></td>
+    <td rowspan="3"><input type="button" name="wadahRating"/></td>
+   </tr>
+   <tr>
+    <td><label for="reading">Reading</label></td>
+    <td>:</td>
+    <td><progress id="reading" name="reading" value="60" max="100"></progress></td>
+    <td>60</td>
+   </tr>
+   <tr>
+    <td><label for="quiz">Quiz</label></td>
+    <td>:</td>
+    <td><progress id="quiz" name="quiz" value="50" max="100"></progress></td>
+    <td>50</td>
+   </tr>
+  </table>
+
+  </form>
+
+  <p>Notes:</p>
+  <div class="notes">
+   <ul>
+    <li>.....</li>
+    <li>.....</li>
+    <li>.....</li>
+   </ul>
+  </div>
+
+ </div>
+
+</body>
+</html>
